@@ -5,7 +5,7 @@ include('php/conexion.php'); ?>
 <link rel="stylesheet" href="css/MiEstilo.css">
 <style>
 	body {
-		background-image: url('img/Desayunos/PostreFond.png');
+		background-image: url('img/Postres/PostreFond.png');
 		background-repeat: repeat repeat;
 		background-attachment: scroll, local;
 		background-size: contain;
