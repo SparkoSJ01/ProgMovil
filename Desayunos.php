@@ -17,7 +17,7 @@ include('php/conexion.php'); ?>
 	$pdo = new conexion();
 	$rep = $pdo->conexion();
 	//print_r($pdo->conexion());
-	$query = "select*from Desayunos";
+	$query = "select*from desayunos";
 	$rs = $rep->prepare($query);
 	$rs->execute();
 

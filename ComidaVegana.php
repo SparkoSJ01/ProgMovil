@@ -14,7 +14,7 @@ include('php/conexion.php'); ?>
 	$pdo = new conexion();
 	$rep = $pdo->conexion();
 	//print_r($pdo->conexion());
-	$query = "select*from Desayunos";
+	$query = "select*from comidavegana";
 	$rs = $rep->prepare($query);
 	$rs->execute();
 
@@ -26,7 +26,7 @@ include('php/conexion.php'); ?>
 						<h2 class='pb-3'><b>" . $reg[1] . "</b></h2>
 					</div>
 					<div class='col-sm-12 col-xl-6 text-center'>
-						<img src='img/Desayunos/" . $reg[4] . "' class='mg-fluid w-50 rounded-circle'>
+						<img src='img/ComidaVegana/" . $reg[4] . "' class='mg-fluid w-50 rounded-circle'>
 					</div>
 					<div class='col-sm-12 col-xl-6 text-center'>
 						<article class='pt-3 row justify-content-center align-items-center g-2'>

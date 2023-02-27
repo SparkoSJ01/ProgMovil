@@ -1,50 +1,61 @@
-.text-mexican-pink{color: #e4007c;}
-.text-aqua{color: #0aa;}
+.text-mexican-pink {
+  color: #e4007c;
+}
+.text-aqua {
+  color: #0aa;
+}
 
+.bg-mexican-pink {
+  background: #e4007c;
+}
+.bg-aqua {
+  background: #0aa;
+}
 
+.borde-1 {
+  border: 15px dotted #f00;
+}
+.borde-2 {
+  border: 15px dashed #f00;
+}
 
+.f-arial {
+  font-family: Arial;
+}
+.f-times {
+  font-family: "Times New Roman";
+}
+.f-matura {
+  font-family: "Matura MT Script Capitals";
+}
+.f-cambria {
+  font-family: Cambria;
+}
+.f-alegrian {
+  font-family: Alegrian;
+}
+.f-castellar {
+  font-family: Castellar;
+}
 
-.bg-mexican-pink{background: #e4007c;}
-.bg-aqua{background: #0aa;}
+.btn-inactive {
+  color: #676c70;
+  background-color: #676c70;
+  border-color: #676c70;
+}
+.btn-activated {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
 
-
-
-
-
-.borde-1{border: 15px dotted #f00;}
-.borde-2{border: 15px dashed #f00;}
-
-
-
-
-
-.f-arial{font-family: Arial;}
-.f-times{font-family: "Times New Roman";}
-.f-matura{font-family: "Matura MT Script Capitals";}
-.f-cambria{font-family: Cambria;}
-.f-alegrian{font-family: Alegrian;}
-.f-castellar{font-family: Castellar;}
-
-
-
-.btn-inactive{
-	color:#676c70;
-	background-color:#676c70;
-	border-color:#676c70;
-	}
-.btn-activated{
-	color:#fff;
-	background-color:#fff;
-	border-color:#fff;
-	}
-
-
-.card-height{height: 350px;}
-
+.card-height {
+  height: 350px;
+}
 
 /*covers*/
-.text-sw{
-	text-shadow: 1px 1px 2px black;
+.text-sw {
+  text-shadow: 1px 1px 2px black;
 }
 .cover-container {
   max-width: 42em;
@@ -59,16 +70,16 @@
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .75);
+  border-bottom-color: rgba(255, 255, 255, 0.75);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -80,8 +91,6 @@
   border-bottom-color: #fff;
 }
 
-
-
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -91,7 +100,6 @@
   }
 }
 
-
 /*
  * Cover
  */
@@ -99,46 +107,38 @@
   padding: 0 1.5rem;
 }
 .cover .btn-lg {
-  padding: .75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   font-weight: 700;
 }
-
 
 /*
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
-
-
-
-
 
 /*comps*/
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-tr-white {
-  background-color: rgba(255, 255, 255, .60);
+  background-color: rgba(255, 255, 255, 0.6);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-tr-black {
-  background-color: rgba(0, 0, 0, .60);
+  background-color: rgba(0, 0, 0, 0.6);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 
 .site-tr-gray {
-  background-color: rgba(52, 58, 64, .60);
+  background-color: rgba(52, 58, 64, 0.6);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
-
-
-
